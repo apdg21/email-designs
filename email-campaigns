@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Designs Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+        }
+        h1 {
+            text-align: center;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .design {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            overflow: hidden;
+            width: 300px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .design img {
+            max-width: 100%;
+            height: auto;
+        }
+        .design a {
+            display: block;
+            padding: 10px;
+            background: #007bff;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .design a:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Email Designs Gallery</h1>
+    <div class="gallery">
+        <!-- Example Design Card -->
+        <div class="design">
+            <img src="thumbnails/email1.png" alt="Email Design 1">
+            <p>Email Design 1</p>
+            <a href="email-designs/email1.html" target="_blank">View Design</a>
+        </div>
+        <div class="design">
+            <img src="thumbnails/email2.png" alt="Email Design 2">
+            <p>Email Design 2</p>
+            <a href="email-designs/email2.html" target="_blank">View Design</a>
+        </div>
+        <!-- Repeat similar structure for other designs -->
+    </div>
+</body>
+</html>
